@@ -1,0 +1,97 @@
+Started GET "/" for 127.0.0.1 at 2022-05-25 15:56:16 +0800
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ihsanashi/.rvm/rubies/ruby-3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ihsanashi/.rvm/rubies/ruby-3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.0ms | Allocations: 634)
+Completed 200 OK in 23ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 4916)
+
+
+Started GET "/" for 127.0.0.1 at 2022-05-25 18:10:24 +0800
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ihsanashi/.rvm/rubies/ruby-3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ihsanashi/.rvm/rubies/ruby-3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.6ms | Allocations: 526)
+Completed 200 OK in 11ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3577)
+
+
+Started GET "/" for 127.0.0.1 at 2022-05-25 18:10:32 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ihsanashi/.rvm/rubies/ruby-3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ihsanashi/.rvm/rubies/ruby-3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | Allocations: 319)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1041)
+
+
+Started GET "/" for 127.0.0.1 at 2022-05-25 18:10:44 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ihsanashi/.rvm/rubies/ruby-3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ihsanashi/.rvm/rubies/ruby-3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 27)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/" for 127.0.0.1 at 2022-05-25 18:21:14 +0800
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ihsanashi/.rvm/rubies/ruby-3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ihsanashi/.rvm/rubies/ruby-3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 526)
+Completed 200 OK in 9ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 3592)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2022-05-25 18:21:20 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 781.7ms | Allocations: 89947)
+Completed 200 OK in 785ms (Views: 783.7ms | ActiveRecord: 0.0ms | Allocations: 90998)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2022-05-25 18:21:48 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2994)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 3848)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2022-05-25 18:22:59 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 13932)
+Completed 200 OK in 42ms (Views: 38.0ms | Allocations: 14570)
+
+
+Started GET "/" for 127.0.0.1 at 2022-05-25 18:23:02 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2382)
+Completed 200 OK in 6ms (Views: 5.3ms | Allocations: 2668)
+
+
+Started GET "/" for 127.0.0.1 at 2022-05-25 18:23:34 +0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 13938)
+Completed 200 OK in 15ms (Views: 14.2ms | Allocations: 14573)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2022-05-25 18:23:39 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/home/index"):
+  
+Started GET "/" for 127.0.0.1 at 2022-05-25 18:25:19 +0800
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 52.2ms | Allocations: 35740)
+Completed 200 OK in 60ms (Views: 55.0ms | ActiveRecord: 0.0ms | Allocations: 38961)
+
+
