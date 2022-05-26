@@ -1,15 +1,29 @@
-<p style="color: green"><%= notice %></p>
+<table class="table table-striped table-bordered table-hover" id="friends">
+  <thead class="thead-dark">
+    <tr>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th colspan="3">Actions</th>
+    </tr>
+  </thead>
 
-<h1>Friends List</h1>
+  <tbody>
+    <% @friends.each do |friend| %>
+      <tr>
+        <td><%= friend.first_name %></td>
+        <td><%= friend.last_name %></td>
+        <td><%= friend.email %></td>
+        <td><%= friend.phone %></td>
+        <td><%= link_to "View", friend %></td>
+        <td><%= link_to "Edit", friend %></td>
+        <td><%= button_to "Delete", friend, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
 
-<div id="friends">
-  <% @friends.each do |friend| %>
-    <%= render friend %>
-    <p>
-      <%= link_to "Show this friend", friend %>
-    </p>
-    <%= button_to "Destroy this friend", @friend, method: :delete %>
-  <% end %>
-</div>
+<%= link_to "New friend", new_friend_path, class:"btn btn-secondary" %>
 
-<%= link_to "New friend", new_friend_path %>
+<%# <button type="button" class="btn btn-secondary">Secondary</button> %>
